@@ -176,7 +176,7 @@ Zusätzlich können Sie sich einen Filter in der Aktivitäten Übersicht erstell
 
 <figure><img src="../../../.gitbook/assets/Microsoft Teams (work or school) 2025-04-03 14.01.25.png" alt=""><figcaption><p>Filtererstellung</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Aktivitäten Übersicht mit Unterzeichnungsstatus</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Aktivitäten Übersicht mit Unterzeichnungsstatus</p></figcaption></figure>
 
 ### Cockpit
 

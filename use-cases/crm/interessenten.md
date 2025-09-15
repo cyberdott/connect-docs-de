@@ -35,13 +35,13 @@ Im Angebot auf **Annehmen und Mietvertrag erstellen** klicken, damit nun automat
 
 Unter dem Modul „Vermarktung / Wohnungsvermittlung / Verarbeitung / Schnittstelle Immobilienbörsen / Interessenten Import“. Wie im untenstehenden Bild abgebildet, wählen Sie das Portal „XYZ“ aus. Abschließend klicken Sie in oberer Symbolleiste auf **Ausführen**.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Interessentenimport
 
 Gehen Sie nun im Modulmenü links unter „Vermarktung / Wohnungsvermittlung / Stammdaten / Angebot“. Drücken Sie dort die **F6**-Taste (aktualisieren/suchen) Anschließend werden alle importierten Mieter angezeigt. Unter Datensatznavigation können Sie das/den entsprechende Angebot/Mieter auswählen/markieren.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Anschließend den „Status“ auf „angenommen“ setzen und Speichern. Hinweis: Beim Import eines Geschäftspartners wird eine sogenannte Dubletten Prüfung durchgeführt. Das bedeutet, es wird überprüft, ob der Geschäftspartner bereits besteht, um eine fälschliche erneute Anlage zu verhindern. Standardmäßig wird nach Vorname, Nachname und Geburtsdatum geprüft. Dies kann aber auch geändert werden. Sprechen Sie uns dazu gerne an. Es ist wichtig zu wissen, dass die Überprüfung sensibel auf Leerzeichen reagiert.
 

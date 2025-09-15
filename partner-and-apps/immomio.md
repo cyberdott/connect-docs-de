@@ -151,29 +151,28 @@ Mieter in Immomio anlegen zum prüfen:
 #### Übersicht
 
 * [Allgemeine Informationen Aktivitäten und Schadensmeldungen](../use-cases/crm/tickets.md)
+* In Immomio erstellte **Anliegen** werden **immer** als **Aktivität** ins ERP übertragen.
+* In Immomio erstellte **Schäden** erzeugen **immer** eine **Aktivität** und **optional** zusätzlich eine **Schadensmeldung**, die mit der Aktivität verknüpft ist (Empfehlung: Aktivitätstyp **„Schadensmeldung Immomio“** im ERP anlegen).
+* **Rückmeldungen aus dem ERP:** Wird eine Aktivität im ERP bearbeitet (Statusänderung oder Kommentar), erscheint dies in **Immomio** nach spätestens 15 min.
+* **Anhänge** eines **Anliegens** aus Immomio können auch übertragen werden. Hierzu müssen Sie in Yuneo ein Archiv mit den Aktivitäten verknüpfen. Wir empfehlen ein Archiv "Immomio Anhänge" anzulegen.
+* **Synchronisation:**
+  * **Immomio → Yuneo/ERP:** Anliegen, Schäden und **Kommentare** nahezu **live**.
+  * **Yuneo/ERP → Immomio:** **Kommentare** und **Statusupdates** alle **15 Minuten**.
 
-Die bi-direktionale Aktivitäten und Schadensmeldungsintegration erlaubt die Erstellung von Schäden und Anliegen in Immomio, welche anschließend ins ERP gesendet werden. Je nachdem welche Kategorie vom Benutzer beim Anlegen eines Anliegens in Immomio ausgewählt wird, wird der Aktivitätstyp ‘Anhänge’ aus Immomio auch ins ERP übertragen. Hierzu wird die Datei im Archiv gespeichert und anschließend mit der Aktivität verknüpft. Wenn der Sachbearbeiter die Aktivität im ERP bearbeitet, indem der Status angepasst wird oder ein Kommentar verfasst wird, wird dies in Immomio angezeigt.
-
-#### Einstellungen
-
-| Name                               | Beschreibung                                                                                                                             | Optionen                 |
-| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
-| Separator für zusammengesetzte IDs | Dieser Separator zwischen der Nummer der Mandanten, Wirtschaftseinheinten, Gebäuden und Einheiten und wird in Immomio als ID angezeigt.  | `-`, `_`, `.`, `/`, `\|` |
-
-#### Voraussetzungen
+#### Voraussetzungen und ERP Einstellungen
 
 1. **Archive für Anhänge an Aktivitäten**\
    Damit Ihre Anhänge von Immomio Anliegen und Schäden in Ihr ERP übertragen werden können, müssen sie:
-   1. ein Archiv dafür anlgen und uns den Namen mitteilen (z.B. 'Mieter App')
+   1. ein Archiv dafür anlegen und uns den Namen mitteilen (z.B. 'Mieter App')
    2. das Archiv 'Mieter App' im Aktivitätenmanagement verknüpfen
-2. Sie müssen die **Aktivitätstypen** bestimmen, welche in Immomio verfügbar sein sollen und die Pflichtmerkmale dieser Aktivitätstypen auf NICHT verpflichtend einstellen.
-3. Schäden und Anliegen.
-4. Wir brauchen die **ERP API Benutzernamen**, welche Sie bereits im Zuge der Stammdatenintegration für Aareon Connect erstellt hat.
-5. Damit die Mieter in Immomio einen passenden Fragebogen durchlaufen, wenn sie Schäden oder Anliegen erstellen, brauchen wir Ihren **Anliegen und Schaden Fragen Katalog**. Hierzu können Sie sich an folgenden Beispielen orientieren:
+2. Aktivitätstyp für Schadensmeldung anlegen\
+   Erstellen Sie einen Aktiviätstyp mit dem Namen "Schadensmeldung Immomio" und geben Sie Ihrem Ansprechpartner bei Immomio Bescheid.
 
-{% file src="../.gitbook/assets/activitätenBeispiel.xlsx" %}
+**Aktivierung**
 
-{% file src="../.gitbook/assets/damagesBeispiel.xlsx" %}
+Um die Integration zu testen wird Ihnen ein Aareon Mitarbeiter einen Link zur Verfügung stellen, über den Sie gemeinsam die Integration aktivieren werden. Sobald alles funktioniert wird die live Integration aus Ihrem Yuneo Account heraus aktiviert. So können Sie 24/7 Anpassungen vornehmen. Bitte aktivieren Sie die folgenden 5 Komponenten der Integration, indem sie den Beschreibungen folgen:
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### 4. Dokumente
 
