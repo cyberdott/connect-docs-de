@@ -162,10 +162,13 @@ Mieter in Immomio anlegen zum prüfen:
 #### Voraussetzungen und ERP Einstellungen
 
 1. **Archive für Anhänge an Aktivitäten**\
-   Damit Ihre Anhänge von Immomio Anliegen und Schäden in Ihr ERP übertragen werden können, müssen sie:
-   1. ein Archiv dafür anlegen und uns den Namen mitteilen (z.B. 'Mieter App')
-   2. das Archiv 'Mieter App' im Aktivitätenmanagement verknüpfen
-2. Aktivitätstyp für Schadensmeldung anlegen\
+   Anhänge zu Schäden und Anliegen werden im ERP in einem Archiv abgelegt und anschließend mit dem zugehörigen Mietvertrag oder Mitglied verknüpft. Hierzu müssen Sie im Bereich Archive:
+   1. jeweils ein Archiv erstellen: 'MV Mieterapp' und 'MI Mieterapp',
+   2. das Stammdatum mit 'Mietvertrag' und 'Mitglied' vorbelegen\
+      ![](<../.gitbook/assets/image (73).png>)
+   3. und den Hauptindex 'Mietvertrags-Nr.' sowie 'Mitglieds-Nr.' festlegen.\
+      ![](<../.gitbook/assets/image (74).png>)
+2. **Aktivitätstyp für Schadensmeldung anlegen**\
    Erstellen Sie einen Aktiviätstyp mit dem Namen "Schadensmeldung Immomio" und geben Sie Ihrem Ansprechpartner bei Immomio Bescheid.
 
 **Aktivierung**
