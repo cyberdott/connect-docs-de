@@ -1,12 +1,8 @@
----
-description: Dokumente voll integriert digital unterschreiben
----
-
 # Digitale Unterschrift
 
 Die Digitale Unterschrift ist eine vollständig integrierte Lösung mit welcher Unterzeichnungs­prozesse digitalisiert und automatisiert werden.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption><p><a href="https://www.youtube.com/watch?v=StS6iB2DtOM">KLICKEN SIE HIER</a> - Dabei wird YouTube in einem neuem Tab, außerhalb von Aareon Connect, geöffnet</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption><p><a href="https://www.youtube.com/watch?v=StS6iB2DtOM">KLICKEN SIE HIER</a> - Dabei wird YouTube in einem neuem Tab geöffnet</p></figcaption></figure>
 
 [Mehr generelle Informationen finden Sie hier](https://www.aareon.de/L%C3%B6sungen/Digitale-Unterschrift.510544.html).
 
@@ -28,10 +24,6 @@ Sie können die Digitale Unterschrift für alle Dokumente, wie zum Beispiel:
 * Digitale Unterschrift vor Ort
 * [#standalone-nutzung-ohne-erp-system](technologie-partner/scrive-technologie-partner.md#standalone-nutzung-ohne-erp-system "mention")
 
-{% hint style="warning" %}
-Nicht alle ERPs unterstützen alle Dokumente und Funktionen. Details dazu finden Sie unter [erps](erps/ "mention").
-{% endhint %}
-
 ## Signatur Stufen
 
 Die europäische eIDAS-Verordnung, (elektronische Identifizierung und vertrauenswürdige Dienste für elektronische Transaktionen), legt drei Stufen der elektronischen Signatur fest:
@@ -50,10 +42,6 @@ Basierend auf den aktuellen rechtlichen Vorgaben und gängigen Nutzung in der Pr
 * Indexmietverträge (§557b BGB)
 * Befristete Mietverträge (§550, §575 Abs. 1 BGB)
 * Genossenschaftsbeitrittserklärung
-
-{% hint style="warning" %}
-Diese Informationen ersetzen keinesfalls individuelle Rechtsberatung und stellen keine Rechtsauskunft dar. Wir übernehmen daher keinerlei Haftung für die angebotenen Informationen.
-{% endhint %}
 
 Hier finden Sie mehr Details zum [#ablauf-von-qes-in-scrive](technologie-partner/scrive-technologie-partner.md#ablauf-von-qes-in-scrive "mention").
 
