@@ -2,10 +2,6 @@
 
 Die Digitale Unterschrift ist eine vollständig integrierte Lösung mit welcher Unterzeichnungs­prozesse digitalisiert und automatisiert werden.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption><p><a href="https://www.youtube.com/watch?v=StS6iB2DtOM">KLICKEN SIE HIER</a> - Dabei wird YouTube in einem neuem Tab geöffnet</p></figcaption></figure>
-
-[Mehr generelle Informationen finden Sie hier](https://www.aareon.de/L%C3%B6sungen/Digitale-Unterschrift.510544.html).
-
 ## Anwendungsfälle der Digitalen Unterschrift
 
 Sie können die Digitale Unterschrift für alle Dokumente, wie zum Beispiel:
@@ -52,11 +48,3 @@ Hier finden Sie mehr Details zum [#ablauf-von-qes-in-scrive](technologie-partner
 ## Weitere Informationen
 
 Weitere Informationen zur Einrichtung und Nutzung finden Sie hier:
-
-{% content-ref url="technologie-partner/scrive-technologie-partner.md" %}
-[scrive-technologie-partner.md](technologie-partner/scrive-technologie-partner.md)
-{% endcontent-ref %}
-
-{% content-ref url="erps/" %}
-[erps](erps/)
-{% endcontent-ref %}
